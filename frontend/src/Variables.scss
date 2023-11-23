@@ -1,0 +1,9 @@
+$green: #ADFF00;
+$silver: #83867a;
+
+@mixin flexCenter($direction) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: $direction;
+}
